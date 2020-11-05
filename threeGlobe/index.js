@@ -158,7 +158,7 @@ function init() {
   var radius1 = 1;
 
   //----------------
-window.onmousedown = function( event ) 
+window.onpointerdown = function( event ) 
 {
   // the following line would stop any other event handler from firing
   // (such as the mouse's TrackballControls)
