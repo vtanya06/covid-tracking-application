@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8">
+    <title>3D Earth Globe showing Corona Information about Different Countries</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="star-background"> 
+    <h1 class="common-text-shadow globe-title"> THREE.js to show corona Information</h1>
+
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="https://threejs.org/build/three.js">
+    
+    
+    </script>
+    <script src="https://threejs.org/examples/js/controls/OrbitControls.js"></script>
+    <!-- <script src="https://s3-eu-west-2.amazonaws.com/bckld/lab/loading.js"></script> -->
+    
+    <div class="common-text-style common-text-shadow">
+      <h2 class="country-name-text" id="currentCountryName"></h2>
+      <h3 class="info-text" id="countryInfo"></h3>
+      <h3 class="info-text" id="confirmed"></h3>
+      <h3 class="info-text" id="death"></h3>
+      <h3 class="info-text" id="recovered"></h3>
+      <h3 class="info-text" id="updatedAt"></h3>
+
+
+    </div>
+    <div class="button" onclick="location.href='../index.html';">Back</div>
+
+    <script src="index.js"></script>    
+  </body>
+</html>

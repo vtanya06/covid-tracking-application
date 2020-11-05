@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+}
+
+canvas {
+  display: block;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 10px;
+  flex-direction: row;
+}
+.button {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 15px;
+  margin-left:20px;
+  word-spacing: normal;
+  letter-spacing: 5px;
+  border: 1px solid white;
+  background: white;
+  cursor: pointer;
+  line-height: 12px;
+  width: 50px;
+  margin-top: 1px;
+  margin-right: 2px;
+  position:absolute;
+  top:0;
+  right:0;
+}
+
+.globe-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+  margin-left: 30px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.common-text-style {
+  position: absolute;
+  color: #fff;
+  font-family: sans-serif;
+  margin-left: 4%;
+  width: 300px;
+}
