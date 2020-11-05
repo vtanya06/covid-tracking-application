@@ -1,2 +1,2 @@
 
-Demo example at [coronavirus.vtanya.tech](https://www.coronavirus.vtanya.tech)
+Demo example at [project link](https://vtanya1501.github.io/covid-tracking-application/)
